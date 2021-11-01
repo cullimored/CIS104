@@ -9,9 +9,7 @@ while True :
     except:
         print("Invalid input")
         continue
-#    print(fval)
     num = num + 1
     tot = tot + fval
 
-#    print("ALL DONE")
     print(tot,num,tot/num)
